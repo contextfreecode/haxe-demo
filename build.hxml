@@ -1,0 +1,10 @@
+-cp src
+color.Color
+
+--each
+
+--lua bin/lua/Color.lua
+
+--next
+
+--python bin/python/color.py

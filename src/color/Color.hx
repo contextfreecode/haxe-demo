@@ -1,0 +1,5 @@
+package color;
+
+class Color {
+  //
+}
