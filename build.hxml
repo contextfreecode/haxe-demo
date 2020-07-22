@@ -1,10 +1,11 @@
 -cp src
-color.Color
-
+--main color.Demo
 --each
 
---lua bin/lua/Color.lua
+--cpp bin/cpp
+--next
 
+--lua bin/lua/color.lua
 --next
 
 --python bin/python/color.py

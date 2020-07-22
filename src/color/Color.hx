@@ -1,5 +1,0 @@
-package color;
-
-class Color {
-  //
-}
