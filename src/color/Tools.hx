@@ -7,7 +7,9 @@ import haxe.macro.Expr;
 #end
 
 class Tools {
-  public static macro function extract(value:ExprOf<EnumValue>, pattern:Expr):Expr {
+  public static macro function extract(
+    value:ExprOf<EnumValue>, pattern:Expr
+  ):Expr {
     switch (pattern) {
       case macro $a => $b:
         return macro switch ($value) {
@@ -15,7 +17,9 @@ class Tools {
           default: throw "no match";
         }
       default:
-        throw new Error("Invalid enum value extraction pattern", pattern.pos);
+        throw new Error(
+          "Invalid enum value extraction pattern", pattern.pos
+        );
     }
   }
 }

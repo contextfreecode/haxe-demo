@@ -25,11 +25,12 @@ class Demo {
   }
 
   static public function hsvToRgb(h:Float, s:Float, v:Float):Color {
+    // From: https://en.wikipedia.org/wiki/HSL_and_HSV#HSV_to_RGB
     var c = s * v;
     var h1 = h * 6;
     var x = c * (1 - Math.abs(h1 % 2 - 1));
     var rgb1 =
-      if (h1 < 1)  Rgb(c, x, 0);
+      if (h1 < 1) Rgb(c, x, 0);
       else if (h1 < 2) Rgb(x, c, 0);
       else if (h1 < 3) Rgb(0, c, x);
       else if (h1 < 4) Rgb(0, x, c);

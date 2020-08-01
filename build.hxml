@@ -5,7 +5,4 @@
 --cpp bin/cpp
 --next
 
---lua bin/lua/color.lua
---next
-
 --python bin/python/color.py
