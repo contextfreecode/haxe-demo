@@ -1,0 +1,8 @@
+-cp src
+color.Convert
+--each
+
+--cpp bin/lib/cpp
+--next
+
+--python bin/lib/python/color.py
