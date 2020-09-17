@@ -30,9 +30,6 @@ color.Convert
 --next
 
 --php php
---next
-
---php php7
 -D php7
 --next
 
