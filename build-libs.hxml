@@ -5,4 +5,39 @@ color.Convert
 --cpp bin/lib/cpp
 --next
 
---python bin/lib/python/color.py
+--cppia cppia/color.cppia
+--next
+
+--cs cs
+--next
+
+--hl hl/color.hl
+--next
+
+--java java
+--next
+
+--jvm jvm/color.jar
+--next
+
+--js js/color.js
+--next
+
+--lua lua/color.lua
+--next
+
+--neko neko/color.n
+--next
+
+--php php
+--next
+
+--php php7
+-D php7
+--next
+
+--python python/color.py
+--next
+
+--swf swf/color.swf
+--next
